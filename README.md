@@ -15,4 +15,11 @@ Performs the analysis done by Kogelnik (1969 coupled-wave holography paper). Plo
 Finds the optical geometry needed to record a hologram with one wavelength, when it is intended to be used at another wavelength, according to Bragg's Law. (You may not have the laser with the desired wavelength to record the hologram.) Designed to give angles in air, taking into account refractions into/out of the polymer and any index-matched substrate/glass/material around the polymer. Takes into account index dispersion, if the material properties are known.
 
 
---
+-- indexof.m --
+
+Gives the index of refraction of a particular material at a given (or vector of) wavelenghts. Uses data from "www.refractiveindex.info" for most materials. Small corrections applied to the dispersion series for some materials in order to better fit data.
+
+
+-- thick_holo_huang.m --
+
+Follows analysis done by Gibert and Huang in 1996 paper. Similar analysis to Kogelnik specifically for substrate guided-wave holograms. Practically, analysis is identical to Kogelnik, maybe even slightly worse. Probably best to use Kogelnik directly.
