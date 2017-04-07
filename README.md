@@ -1,5 +1,7 @@
 # holography
-Collection of files and scripts related to designing holograms and optical setups.
+Collection of files and scripts related to designing optical setups for hologram recordings. Includes alternate wavelength recording at Bragg condition, and Kogelnik selectivity analysis.
+
+
 
     beam_ratios.m
 
